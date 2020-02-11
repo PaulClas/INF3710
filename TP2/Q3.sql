@@ -80,7 +80,7 @@ CONSTRAINT Paiement_Reservation_FK
 );
 
 CREATE TABLE CarteDeCredit (
-NoCarte         INT NOT NULL, 
+NoCarte         VARCHAR(15) NOT NULL, 
 Nom             VARCHAR(15) NOT NULL, 
 Expiration      DATE NOT NULL,
 CONSTRAINT CarteDeCredit_PK
