@@ -25,7 +25,7 @@ CREATE TABLE FLOTTEDB.Moteur (
     idMoteur        SERIAL        NOT NULL,
     modele          VARCHAR(50)     NOT NULL,
     idConstructeur  SERIAL          NOT NULL,
-    diametre        VARCHAR(50)     NOT NULL,
+    diametre        INT             NOT NULL,
     longueur        INT             NOT NULL,
     poids           INT             NOT NULL,
     poussee         INT             NOT NULL,
